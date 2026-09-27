@@ -1,4 +1,4 @@
-# SAMRA Coffee
+# SAMRAA Coffee
 
 Bilingual Arabic/English static coffee discovery and brewing site. Deploy the repository root with GitHub Pages; no build step is needed.
 
@@ -14,7 +14,7 @@ Edit `coffees` in `script.js` for coffee names, suggested flavour directions and
 
 The WhatsApp number and Instagram profile are retained from the supplied original site: 966599721275 and roastery.ksa. WhatsApp links open a prepared enquiry; they do not send messages automatically.
 
-`assets/hero.webp` is an AI-created editorial coffee still life, not a photo of a SAMRA product or farm. Collection artwork and brewing diagrams are original SVG illustrations. Typography uses Google Fonts with local system fallbacks. Brewing guidance is an adjustable starting point, not a guarantee of taste. HARIO learning resources are linked in the academy.
+`assets/hero.webp` is an AI-created editorial coffee still life, not a photo of a SAMRAA product or farm. Collection artwork and brewing diagrams are original SVG illustrations. Typography uses Google Fonts with local system fallbacks. Brewing guidance is an adjustable starting point, not a guarantee of taste. HARIO learning resources are linked in the academy.
 
 ## Local preview
 Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
