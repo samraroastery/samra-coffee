@@ -1,20 +1,23 @@
 # SAMRAA Coffee
 
-Bilingual Arabic/English static coffee discovery and brewing site. Deploy the repository root with GitHub Pages; no build step is needed.
+Arabic/English static company website. GitHub Pages serves the repository root without a build step.
 
 ## Features
-- Six-coffee collection with details, flavour filters and a three-question finder.
-- V60 (balanced, light, rich, iced), espresso, AeroPress, Chemex, French press and refrigerated cold-brew recipes.
-- Dose calculator, scaled cumulative pour weights, brew timer and recipe copy.
-- Multi-product WhatsApp enquiry with pack quantities and grind selection. Prices and availability are confirmed by the roaster, not fabricated in a checkout.
-- Arabic RTL by default, English LTR, responsive layout, keyboard-accessible native dialogs, reduced-motion support.
+- Six coffee names with country filters and current-lot enquiries.
+- Three-question preference finder that asks the team for a suitable available lot.
+- Source-linked hot and iced V60, espresso, upright AeroPress, Chemex, French press and HARIO bottle cold brew.
+- Reference-dose reset, proportional dose calculator, copyable recipes and elapsed timer.
+- WhatsApp enquiry with quantities and grind selection; no automatic sending or fabricated prices.
+- Arabic RTL and English LTR, responsive layout and native dialogs.
 
-## Content and assets
-Edit `coffees` in `script.js` for coffee names, suggested flavour directions and method recommendations. Current lot process, altitude, roast, pack size, price and availability are intentionally not invented. Confirm these with the roaster before adding product specifications.
+## Content accuracy
+See [AUDIT.md](AUDIT.md) for sources, corrections and verification limits. Scaled quantities are calculations, not physically tested recipes. Reference recipes need adjustment for beans, equipment and taste.
 
-The WhatsApp number and Instagram profile are retained from the supplied original site: 966599721275 and roastery.ksa. WhatsApp links open a prepared enquiry; they do not send messages automatically.
+Coffee names, origins and contact destinations were retained from the supplied site. Confirm current lots, spelling, availability, roast information, tasting notes, pack sizes and prices with the company before adding specifications. WhatsApp: 966599721275; Instagram: roastery.ksa. Account ownership has not been independently verified.
 
-`assets/hero.webp` is an AI-created editorial coffee still life, not a photo of a SAMRAA product or farm. Collection artwork and brewing diagrams are original SVG illustrations. Typography uses Google Fonts with local system fallbacks. Brewing guidance is an adjustable starting point, not a guarantee of taste. HARIO learning resources are linked in the academy.
+The hero is an AI-created illustrative still life, not a product or farm photograph. Coffee artwork and brewing diagrams are SVG illustrations. Google Fonts have system fallbacks.
 
-## Local preview
-Run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
+## Checks and preview
+Run `node --check script.js` and `node tests/audit.cjs` from this folder. The audit uses a DOM stub for logic checks; it is not a substitute for browser testing.
+
+Run `python3 -m http.server 8000` and open http://localhost:8000. `tests/viewport.html` provides selectable iframe widths for responsive visual checks.
