@@ -7,3 +7,6 @@
 
 
 .recipe-source{margin-top:18px;padding-top:18px;border-top:1px solid var(--line);font-size:11px;overflow-wrap:anywhere}.recipe-source strong,.recipe-source a{display:block;margin-bottom:8px}.recipe-source a{text-decoration:underline;text-underline-offset:3px}.recipe-source p{color:var(--muted);margin-bottom:0}.metric b{font-size:clamp(15px,1.7vw,22px);overflow-wrap:anywhere}.metric{min-width:0}#referenceDose{font-size:11px;margin-top:10px}.footer-wordmark{font-size:clamp(80px,15vw,190px)}@media(max-width:760px){.footer-wordmark{font-size:18vw}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.coffee-art .art-top{letter-spacing:0}.recipe-heading{align-items:start}.quiz-option{min-height:66px}}
+/* Allow long translated recipe controls to shrink within narrow screens. */
+.brew-controls,.brew-recipe{min-width:0}.brew-controls select{width:100%;min-width:0}.recipe-source a{overflow-wrap:anywhere}.recipe-heading>div{min-width:0}
+@media(max-width:360px){.brew-controls,.brew-recipe{padding:18px 14px}.timer-panel{gap:6px;flex-wrap:wrap}.method{font-size:10px}.recipe-heading{flex-wrap:wrap}}
