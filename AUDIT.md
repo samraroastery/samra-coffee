@@ -36,3 +36,6 @@ La Marzocco's direct page restricted automated access; its official indexed text
 - Physical brewing and tasting with the company's beans and intended equipment. No sensory validation was performed.
 
 Unverified batch-specific claims are not presented as established product specifications. The website directs customers to staff for confirmation before ordering.
+
+## Live browser checks
+The deployed page was checked in Arabic and English. Verified recipe selection, reference reset, scaled-dose notice, clipboard recipe output, disabled cold-brew timer, finder preference summary and a two-pack filter-grind WhatsApp enquiry. No enquiry was sent. A narrow-screen grid overflow was found and corrected with shrinkable recipe columns and compact spacing. GitHub Pages deployment succeeded.
