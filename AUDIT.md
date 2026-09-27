@@ -10,10 +10,10 @@ Reviewed 27 September 2026. This is an editorial and software review, not a sens
 - Replaced the unsupported cold-brew concentrate/dilution instructions with the fixed HARIO bottle recipe.
 - Removed inferred lot tasting notes and automatic product recommendations. The finder now sends customer preferences for staff advice.
 - Clarified espresso output versus input water, brewing capacity, and the scope of paper-filter lessons.
-- Preserved the existing SAMRAA spelling and improved bilingual labels and recipe layout.
+- Preserved the existing Nawa roastery spelling and improved bilingual labels and recipe layout.
 
 ## Recipe sources
-These are adapted summaries with direct links displayed beside recipes; the sources do not endorse SAMRAA. Reference quantities are shown below.
+These are adapted summaries with direct links displayed beside recipes; the sources do not endorse Nawa roastery. Reference quantities are shown below.
 
 | Method | Reference | Quantities |
 | --- | --- | --- |

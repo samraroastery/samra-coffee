@@ -10,3 +10,6 @@
 /* Allow long translated recipe controls to shrink within narrow screens. */
 .brew-controls,.brew-recipe{min-width:0}.brew-controls select{width:100%;min-width:0}.recipe-source a{overflow-wrap:anywhere}.recipe-heading>div{min-width:0}
 @media(max-width:360px){.brew-controls,.brew-recipe{padding:18px 14px}.timer-panel{gap:6px;flex-wrap:wrap}.method{font-size:10px}.recipe-heading{flex-wrap:wrap}}
+
+/* Nawa roastery wordmark */
+.brand b,.story-mark>span{font-family:"DM Sans",sans-serif}.brand small{letter-spacing:.14em}.footer-wordmark{font-size:clamp(54px,10vw,135px);letter-spacing:-.055em}.footer-wordmark .roastery-label{font-size:.48em;vertical-align:baseline;margin:0;letter-spacing:-.035em}.story-mark>span{font-size:clamp(60px,8vw,110px)}

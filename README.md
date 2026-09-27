@@ -1,4 +1,4 @@
-# SAMRAA Coffee
+# Nawa roastery
 
 Arabic/English static company website. GitHub Pages serves the repository root without a build step.
 
