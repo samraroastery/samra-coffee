@@ -13,3 +13,7 @@
 
 /* Nawa roastery wordmark */
 .brand b,.story-mark>span{font-family:"DM Sans",sans-serif}.brand small{letter-spacing:.14em}.footer-wordmark{font-size:clamp(54px,10vw,135px);letter-spacing:-.055em}.footer-wordmark .roastery-label{font-size:.48em;vertical-align:baseline;margin:0;letter-spacing:-.035em}.story-mark>span{font-size:clamp(60px,8vw,110px)}
+
+/* Official company logo supplied by Nawa roastery. */
+.brand .official-logo{width:64px;height:64px;object-fit:contain;border-radius:4px;flex-shrink:0}.official-story{aspect-ratio:1;border-radius:4px;overflow:hidden;background:#303030}.official-story img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:760px){.brand .official-logo{width:48px;height:48px}}
